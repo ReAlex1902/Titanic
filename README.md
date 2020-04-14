@@ -1,3 +1,5 @@
+# README
+
 The goal of the project is to understand either the passenger of the Titanic will die or not. The dataset is here (https://www.kaggle.com/c/titanic/data)
 
 The Scikit Learn library is used in this project.
