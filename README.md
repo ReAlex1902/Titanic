@@ -1,4 +1,8 @@
-The dataset train.csv includes the data of Titanic passengers. The goal is to predict will the passenger survive or not.
+The goal of the project is to understand either the passenger of the Titanic will die or not. The dataset is here (https://www.kaggle.com/c/titanic/data)
 
-The main data analysis and model creaing is in the main.ipynb file. 
-The final result of models (Logistic Regressino, Decision Tree and Random foest) is in the main.py file
+The Scikit Learn library is used in this project.
+
+Firstly, in Analysis.ipynb I'm analyzing the data I have. During the work I got that best methods I can use to determine the goal feature are Logistic Regression and Random Forest. Also, I concluded that scaling may be needed.
+
+Then in the main.ipynb I created models and fitted them. And as I expected, Logistic Regression worked perfect, Random Forest was just a little bit (1,6%) worse than Logistic Regression.
+
