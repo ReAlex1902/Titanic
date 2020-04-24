@@ -1,10 +1,13 @@
-# README
+# Titanic suvival determination
 
-The goal of the project is to understand either the passenger of the Titanic will die or not. The dataset is here (https://www.kaggle.com/c/titanic/data)
+### Goal
+The goal of the project is to create the classifier which divide passengers of the Titanic on those who survived and who didn't.
 
-The Scikit Learn library is used in this project.
+### Data
+The data for this repository is available here (https://www.kaggle.com/c/titanic/data)
 
-Firstly, in Analysis.ipynb I'm analyzing the data I have. During the work I got that best methods I can use to determine the goal feature are Logistic Regression and Random Forest. Also, I concluded that scaling may be needed.
+### Scripts
+First, go to analysis.ipynb. There you may see the data analysis, useful plots and diagrams.
+Second, go to main.ipynb to see the model creating.
 
-Then in the main.ipynb I created models and fitted them. And as I expected, Logistic Regression worked perfect, Random Forest was just a little bit (1,6%) worse than Logistic Regression.
-
+All the comments and conclusions are in the files mentioned above.
